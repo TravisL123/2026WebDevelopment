@@ -31,7 +31,7 @@ body{
                  apply some other type of styling.
 */
 #secondGallery img:hover{
-    filter:grayscale(25%);
+    opacity:0.5;
 }
 /* Challenge 14: Change the transition for all elements to 1 second */
 body{
