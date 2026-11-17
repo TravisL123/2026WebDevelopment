@@ -1,2 +1,83 @@
 /* Challenge 2: Use w3SchoolsMockUp.png to help you write the necessary CSS rules.
    Hint: Remember all the fundamental CSS rules when working with flexboxes */
+
+.container{
+  display:flex;
+}
+
+#banner div{
+  flex:1;
+}
+#banner:hover{
+  color:rgb(200, 63, 8);
+}
+#banner{
+  color:rgb(0, 0, 0);
+  padding:20px;
+}
+
+nav a{
+  flex:1;
+  text-decoration:none;
+  color:white;
+}
+
+nav a:hover{
+  color:rgb(0, 255, 115);
+}
+
+nav{
+  background-color:green;
+  padding:10px;
+}
+body{
+  font-family:arial;
+}
+
+
+#links{
+  flex-direction:column;
+  padding:15px;
+  text-decoration:none;
+}
+
+#links a{
+  text-decoration:none;
+  color:black;
+}
+
+
+#links a:hover{
+  color:rgb(76,175,80);
+}
+#main{
+  flex:1;
+  justify-content:center;
+  align-items:center;
+}
+
+#main:hover{
+  color:rgb(24, 190, 160);
+}
+
+#sample{
+  flex:1;
+  justify-content:center;
+  align-items:center;
+}
+#sample:hover{
+  color:rgb(85, 202, 22);
+}
+#footer{
+  background-color:green;
+  color:white;
+  justify-content:center;
+  padding:5px;
+}
+
+#footer:hover{
+  color:rgb(189, 48, 5)
+}
+#contents{
+  flex:1;
+}
